@@ -46,7 +46,7 @@ li {
   border: none;
   position: fixed;
   background-attachment: scroll;
-  cursor: pointer;      //LEARN THIS!!!!!!!!
+  cursor: pointer;       /* LEARN THIS!!!!!!!! */
 }
 
 .dropbtn:hover, .dropbtn:focus {
