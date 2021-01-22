@@ -1,3 +1,5 @@
+/*------------------------------------------------------------------------------------------------- Universal styles */
+
 body {
   background: linear-gradient(135deg, mistyRose, skyBlue, mediumPurple);
   font-family: 'Arial';
@@ -6,36 +8,21 @@ body {
   margin: 0px;
   min-height: 100vh;
   box-sizing: border-box;
+  display: flex;
+  justify-content: center;
 }
 
-.content {
-  flex: 1;
-  overflow: hidden;
+hr {
+    width: 50%;
+    margin-bottom: 5%;
 }
 
-p {
-  line-height: 1.6;
-  text-align: justify;
-}
+/*------------------------------------------------------------------------------------------------- Nav bar */
 
-.button:hover {
-  color: purple;
-}
-
-li {
-  text-align: justify;
-}
-
-.button {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-  text-decoration: none;
-  color: initial;
-}
-
-.center {
-  text-align: center;
+nav {
+  position: absolute;
+  left: 10px;
+  top: 10px;
 }
 
 .dropbtn {
@@ -78,6 +65,64 @@ li {
   background-color: #ddd
 }
 
+/*------------------------------------------------------------------------------------------------- Index page */
+
+.index {
+	text-align: center;
+}
+
+.heading {
+    text-align: center;
+    font-size: 350%;
+    margin: 5%;
+}
+
+.content {
+  flex: 1;
+  overflow: hidden;
+}
+
+.left {
+    text-align: left;
+    float: left;
+}
+
+p {
+  line-height: 1.6;
+  text-align: justify;
+}
+
+table {
+    width: 30%;
+    justify-self: center;
+    margin: 0 auto;
+}
+
+th, td {
+    width: 60%;
+    text-align: left;
+}
+
+.button:hover {
+  color: purple;
+}
+
+li {
+  text-align: justify;
+}
+
+.button {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+  text-decoration: none;
+  color: initial;
+}
+
+.center {
+  text-align: center;
+}
+
 .show {
   display:block;
 }
@@ -85,12 +130,6 @@ li {
 li, ul {
   padding: 2px;
   line-height: 1.6;
-}
-
-.menu {
-  position: absolute;
-  left: 10px;
-  top: 10px;
 }
 
 @media only screen and (min-width: 1200px) {
