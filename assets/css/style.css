@@ -1,16 +1,16 @@
 /*------------------------------------------------------------------------------------------------- Universal styles */
 
 body {
-  background: linear-gradient(135deg, mistyRose, skyBlue, mediumPurple);
-  font-family: 'Arial';
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  margin: 0px;
-  min-height: 100vh;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  width: 100%;
+    background: linear-gradient(135deg, mistyRose, skyBlue, mediumPurple);
+    font-family: 'Arial';
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    margin: 0px;
+    min-height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 hr {
@@ -54,6 +54,7 @@ nav {
     flex: 1;
     overflow: hidden;
     width: 95%;
+    margin-left: 5%;
 }
 
 .center {
@@ -70,8 +71,8 @@ section {
 }
 
 p {
-  line-height: 1.6;
-  text-align: justify;
+    line-height: 1.6;
+    text-align: justify;
 }
 
 table {
@@ -91,45 +92,44 @@ th, td, tr {
 }
 
 .button:hover {
-  color: purple;
+    color: purple;
 }
 
 li {
-  text-align: justify;
+    text-align: justify;
 }
 
 .button {
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-  text-decoration: none;
-  color: initial;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    color: initial;
 }
 
 .center {
-  text-align: center;
+    text-align: center;
 }
 
 .show {
-  display:block;
+    display:block;
 }
 
 li, ul {
-  padding: 2px;
-  line-height: 1.6;
+    line-height: 1.6;
 }
 
 @media only screen and (min-width: 1200px) {
-  #profile {
-    margin-left: 200px;
-    margin-right: 200px;
+    #profile {
+        margin-left: 200px;
+        margin-right: 200px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
-  #profile {
-    margin-left: 100px;
-    margin-right: 100px;
+    #profile {
+        margin-left: 100px;
+        margin-right: 100px;
   }
 }
 
