@@ -25,7 +25,7 @@ nav {
     top: 2%;
     width: 75%;
     margin: 0 auto;
-    justify-items: space-between;
+    justify-content: space-between;
 }
 
 .navbar {
@@ -35,6 +35,7 @@ nav {
     padding: 10px;
     justify-self: center;
     background-color: white;
+    width: 12%;
 }
 
 /*------------------------------------------------------------------------------------------------- Index page */
@@ -55,6 +56,10 @@ nav {
     width: 50%;
 }
 
+.center {
+    text-align: center;
+}
+
 .left {
     text-align: left;
     float: left;
@@ -66,15 +71,19 @@ p {
 }
 
 table {
-    width: 30%;
     justify-self: center;
     margin: 0 auto;
-    margin-top: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 60%;
 }
 
 th, td {
-    width: 60%;
-    text-align: left;
+    margin-left: 5%;
+}
+
+th, td, tr {
+    text-align: center;
 }
 
 .button:hover {
