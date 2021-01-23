@@ -15,7 +15,7 @@ body {
 
 hr {
     width: 50%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 /*------------------------------------------------------------------------------------------------- Nav bar */
@@ -47,13 +47,13 @@ nav {
 .heading {
     text-align: center;
     font-size: 350%;
-    margin: 5%;
+    margin-top: 5%;
 }
 
 .content {
     flex: 1;
     overflow: hidden;
-    width: 50%;
+    width: 95%;
 }
 
 .center {
@@ -63,6 +63,10 @@ nav {
 .left {
     text-align: left;
     float: left;
+}
+
+section {
+    margin-left: 3%;
 }
 
 p {
