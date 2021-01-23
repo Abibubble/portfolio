@@ -22,17 +22,19 @@ hr {
 
 nav {
     position: absolute;
-    left: 10px;
-    top: 10px;
+    top: 2%;
     width: 75%;
+    margin: 0 auto;
+    justify-items: space-between;
 }
 
 .navbar {
     text-decoration: none;
     color: black;
     border: 1px solid black;
-    padding: 5px;
+    padding: 10px;
     justify-self: center;
+    background-color: white;
 }
 
 /*------------------------------------------------------------------------------------------------- Index page */
