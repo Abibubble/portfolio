@@ -70,3 +70,10 @@ function eighthover(){
 function eightnormal() {
 	document.getElementById("skilleight").style.fontSize = "100%";
 }
+
+function ninehover(){
+	document.getElementById("skillnine").style.fontSize = "200%";
+}
+function ninenormal() {
+	document.getElementById("skillnine").style.fontSize = "100%";
+}
