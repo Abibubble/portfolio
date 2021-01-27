@@ -22,7 +22,7 @@ hr {
 
 nav {
     position: absolute;
-    top: 2%;
+    top: 3%;
     width: 75%;
     margin: 0 auto;
     justify-content: space-between;
@@ -34,6 +34,7 @@ nav {
     color: black;
     border: 1px solid black;
     padding: 10px;
+    border-radius: 10px;
     justify-self: center;
     background-color: white;
     width: 12%;
