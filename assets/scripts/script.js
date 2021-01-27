@@ -1,6 +1,6 @@
-function hover(){
-	document.getElementById("skillone").style.fontSize = "200%";
+function hover(id){
+	document.getElementById(id).style.backgroundColor = "skyBlue";
 }
-function normal() {
-	document.getElementById("skillone").style.fontSize = "100%";
+function normal(id) {
+	document.getElementById(id).style.backgroundColor = "white";
 }
