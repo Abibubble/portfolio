@@ -59,6 +59,26 @@ nav {
     margin-left: 5%;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: baseline;
+    align-content: center;
+    margin-top: 10%;
+}
+
+.index-header {
+    justify-self: center;
+    width: 50%;
+    float: left;
+}
+
+#profile {
+    width: 50%;
+    float: right;
+}
+
 .center {
     text-align: center;
 }
