@@ -42,6 +42,8 @@ nav {
 
 /*------------------------------------------------------------------------------------------------- Index page */
 
+/* Intro animation? */
+
 .index {
 	text-align: center;
 }
@@ -63,15 +65,13 @@ nav {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    align-items: baseline;
+    align-items: center;
     align-content: center;
-    margin-top: 10%;
+    margin-top: 15%;
 }
 
-.index-header {
-    justify-self: center;
-    width: 50%;
-    float: left;
+.index-heading {
+    font-size: 350%;
 }
 
 #profile {
@@ -100,7 +100,7 @@ p {
 table {
     justify-self: center;
     margin: 0 auto;
-    margin-top: 2%;
+    margin-top: 10%;
     margin-bottom: 2%;
     width: 60%;
 }
