@@ -67,6 +67,9 @@ nav {
     flex-flow: row wrap;
     align-items: center;
     align-content: center;
+}
+
+.index-container {
     margin-top: 15%;
 }
 
@@ -81,6 +84,24 @@ nav {
 
 .center {
     text-align: center;
+}
+
+.float-left {
+    float: left;
+    width: 45%;
+    margin-right: 2%;
+}
+
+.float-right {
+    float: right;
+    width: 50%;
+}
+
+.project-img {
+    width: 50%;
+    height: auto;
+    margin-left: 15%;
+    margin-top: 2%;
 }
 
 .left {
