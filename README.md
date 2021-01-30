@@ -25,7 +25,6 @@ This is a resume site built for Abigail Harrison (me). The purpose of this site 
     * [Imagery](#imagery)
     * [Wireframes](#wireframes)
     * [Features](#features)
-    * [Audio](#audio)
 
 * [Technologies Used](#technologies-used)
     * [Languages Used](#languages-used)
@@ -76,22 +75,26 @@ This is a resume site built for Abigail Harrison (me). The purpose of this site 
 ---
 ## Design
 ### Color Scheme
-* 
+* mistyRose, skyBlue, mediumPurple for the background
+* black for text
+* white for nav pre-mouse over, skyBlue for nav on mouse over.
 
 ### Typography
-* 
+* I have used Arial in this site, as it's a clean and easy to read font.
+* Arial is also a built-in font for HTML, so it won't have any issues being displayed on other browsers.
 
 ### Imagery
-* 
+* The background is a linear gradient of three light colors, which give an immediate impression of my personality.
+* I have included images of my finished projects within my portfolio section, to demonstrate how they look without having to click off my site.
 
 ### Wireframes
 [Here are the wireframes for desktop, mobile and tablet for this project](wireframes.pdf).
 
 ### Features
-* 
+* Navigation bar visible on every page, with links to every page on the site for easy navigation.
+* Links to my portfolio projects
+* Links to videos of my ska band to show what I do in my free time.
 
-### Audio
-* 
 ---
 
 ## Technologies Used
