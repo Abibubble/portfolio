@@ -298,6 +298,5 @@ I tested my website using DevTools Lighthouse feature, and got these results:
 ### To do
 * Condense menu into a dropdown on mobile
 * Fix responsive design
-* Add LSH video to interests
 * Add future projects
 * Add work description for GiffGaff
