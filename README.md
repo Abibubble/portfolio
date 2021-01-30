@@ -282,14 +282,11 @@ I tested my website using DevTools Lighthouse feature, and got these results:
 * [Font Awesome](https://fontawesome.com/): Library of icons used for social media and download links.
 * 
 
-### Audio
-* 
-
 ### Content
-* 
+* All content was written by Abi Harrison.
 
 ### Media
-* 
+* All media belongs to Abi Harrison
 
 ### Acknowledgements
 * My mentor, Antonio Rodriguez, for continuous helpful feedback and support.
@@ -297,3 +294,10 @@ I tested my website using DevTools Lighthouse feature, and got these results:
 * Tom Crabb, for his advice on how to make my code cleaner.
 * The team at Code Institute, for teaching me the necessary skills to create this site.
 * Conor Nye
+
+### To do
+* Condense menu into a dropdown on mobile
+* Fix responsive design
+* Add LSH video to interests
+* Add future projects
+* Add work description for GiffGaff
