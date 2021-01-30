@@ -7,11 +7,9 @@
 ![Font Awesome version](https://img.shields.io/badge/Font%20Awesome-v5.15.1-blue)
 ![GitHub forks](https://img.shields.io/github/forks/abibubble/cv?style=social)
 
-[Here is a link to the final project](https://abibubble.github.io/milestone2-harry-potter-quiz/)
+[Here is a link to the final project](https://abibubble.github.io/cv/)
 
-This is a Harry Potter quiz, made with fully interactive elements, music and sound effects to match. 
-It is designed to be responsive on a wide range of devices, whilst also being easy to navigate through. 
-I chose this project as the Harry Potter novels were a huge inspiration to myself and many others from a young age.
+This is a resume site built for Abigail Harrison (me). The purpose of this site is to showcase my skills to potential employers, and to keep myself in practice when I have no other projects on the go.
 
 ![Final project image home page](assets/images/docs/finalpage.png)
 
