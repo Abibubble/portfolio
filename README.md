@@ -252,7 +252,7 @@ Friends, family members, and other developers were asked to review the site and 
     * 
 
 ### Known Bugs
-* 
+* None
 
 ### Lighthouse
 I tested my website using DevTools Lighthouse feature, and got these results:
@@ -267,7 +267,8 @@ I tested my website using DevTools Lighthouse feature, and got these results:
 * 
 
 #### Accessibility:
-* 
+* I made sure that every image used has alt text attached to it, for those who use screen readers.
+* I ensured that my background and foreground colors had sufficient contrast so that it wouldn't be difficult for those who are color blind to read any text.
 
 #### Best Practices:
 * 
