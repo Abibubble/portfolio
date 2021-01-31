@@ -90,11 +90,17 @@ nav {
     float: left;
     width: 45%;
     margin-right: 2%;
+    justify-content: left;
 }
 
 .float-right {
     float: right;
     width: 50%;
+    justify-content: right
+}
+
+.education-table {
+    width: 100%;
 }
 
 .project-img {
@@ -129,6 +135,10 @@ table {
 
 .index-table {
     margin-top: 10%;
+}
+
+.education-table tr td p {
+    text-align: center;
 }
 
 th, td {
