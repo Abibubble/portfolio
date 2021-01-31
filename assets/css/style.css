@@ -77,6 +77,14 @@ nav {
     font-size: 350%;
 }
 
+.education {
+    float: left;
+}
+
+.courses {
+    float: right;
+}
+
 #profile {
     width: 50%;
     float: right;
