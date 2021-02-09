@@ -1,3 +1,4 @@
+// Hover functions on nav items
 function hover(id){
 	document.getElementById(id).style.backgroundColor = "skyBlue";
 }
