@@ -1,16 +1,21 @@
 /*------------------------------------------------------------------------------------------------- Universal styles */
+html, body {
+    margin: 0;
+    padding: 0;
+    max-width: 100vw;
+    min-height: 100vh;
+}
 
 body {
     background: linear-gradient(135deg, mistyRose, skyBlue, mediumPurple);
     font-family: 'Arial';
     background-repeat: no-repeat;
     background-attachment: scroll;
-    margin: 0px;
-    min-height: 100vh;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
-    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 hr {
