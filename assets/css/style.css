@@ -107,7 +107,7 @@ nav {
 .float-right {
     float: right;
     width: 50%;
-    justify-content: right
+    justify-content: right;
 }
 
 .education-table {
@@ -226,10 +226,19 @@ li, ul {
 }
 
 @media only screen and (max-width: 768px) {
-  #profile {
-    width: 85%;
-  }
-  table {
-      width: 100%;
-  }
+    #profile {
+        width: 85%;
+    }
+    table {
+        width: 100%;
+    }
+    .float-right, .float-left {
+        float: center;
+        width: 90%;
+        justify-content: center;
+    }
+    .project-img {
+        width: 90%;
+        margin-left: 5%;
+    }
 }
