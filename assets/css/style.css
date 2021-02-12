@@ -236,6 +236,7 @@ li, ul {
     }
     table {
         width: 100%;
+        font-size: 85%;
     }
     .float-right, .float-left {
         float: center;
