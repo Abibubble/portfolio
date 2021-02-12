@@ -34,6 +34,10 @@ nav {
     text-align: center;
 }
 
+.nav {
+    overflow: hidden;
+}
+
 .navbar {
     text-decoration: none;
     color: black;
@@ -53,6 +57,35 @@ nav {
     padding: 1%;
     border-radius: 10px;
     border: 1px solid black;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+    background-color: mediumPurple;
+}
+
+@media screen and (max-width: 600px) {
+    .nav a:not(:last-child) {
+        display: none;
+    }
+    nav .dropdown-menu-bars {
+        float: right;
+        display: block;
+    }
+    .dropdown-menu-bars {
+        float: right;
+        display: block;
+    }
+    .nav.responsive {
+        position: relative;
+        right: 0;
+        top: 0;
+    }
+    .nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
 
 /*------------------------------------------------------------------------------------------------- Index page */
@@ -248,3 +281,6 @@ li, ul {
         margin-left: 2%;
     }
 }
+
+/* Active class for menu */
+/* Responsive navbar */
