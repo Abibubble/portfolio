@@ -9,9 +9,9 @@ function normal(id) {
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu icon */
 function dropdownMenuToggle() {
     let navbarContainer = document.getElementById("navbar-container");
-    if (navbarContainer.classList.contains("hide")) {
-        navbarContainer.classList.remove("hide");
+    if (navbarContainer.className === "nav") {
+        navbarContainer.className += " responsive";
     } else {
-        navbarContainer.classList.add("hide");
+        navbarContainer.className = "nav";
     }
 }
