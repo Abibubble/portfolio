@@ -43,7 +43,7 @@ nav {
     text-decoration: none;
     color: black;
     border: 1px solid black;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     justify-self: center;
     background-color: white;
@@ -51,7 +51,7 @@ nav {
 }
 
 .icon {
-    padding: 5px;
+    padding: 10px;
     background-color: transparent;
     border: 1px solid black;
     border-radius: 25%;
@@ -60,7 +60,7 @@ nav {
 
 /* Add an active class to highlight the current page */
 .active {
-    background-color: mediumPurple;
+    background-color: rgb(216, 181, 245);
 }
 
 @media only screen and (min-width: 701px) {
