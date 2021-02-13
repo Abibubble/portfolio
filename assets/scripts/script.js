@@ -3,15 +3,15 @@ function hover(id){
 	document.getElementById(id).style.backgroundColor = "skyBlue";
 }
 function normal(id) {
-	document.getElementById(id).style.backgroundColor = "white";
+	document.getElementById(id).style.backgroundColor = "transparent";
 }
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu icon */
-function dropdownMenuToggle() {
-    let navbarContainer = document.getElementById("navbar-container");
-    if (navbarContainer.className === "nav") {
-        navbarContainer.className += " responsive";
-    } else {
-        navbarContainer.className = "nav";
-    }
-}
+// function dropdownMenuToggle() {
+//     let navbarContainer = document.getElementById("navbar-container");
+//     if (navbarContainer.className === "nav") {
+//         navbarContainer.className += " responsive";
+//     } else {
+//         navbarContainer.className = "nav";
+//     }
+// }
