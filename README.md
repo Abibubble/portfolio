@@ -290,7 +290,7 @@ I tested my website using DevTools Lighthouse feature, and got these results:
 ## Credits
 ### Code
 * [Font Awesome](https://fontawesome.com/): Library of icons used for social media and download links.
-* 
+* [Autoprefixer CSS online](https://autoprefixer.github.io/): To aid in the CSS prefixing.
 
 ### Content
 * All content was written by Abi Harrison.
