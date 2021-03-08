@@ -9,7 +9,8 @@
 
 [Here is a link to the final project](https://abibubble.github.io/cv/)
 
-This is a resume site built for Abigail Harrison (me). The purpose of this site is to showcase my skills to potential employers, and to keep myself in practice when I have no other projects on the go.
+This is a resume site built for Abigail Harrison (me). The purpose of this site is to showcase my skills to potential employers, and to keep myself in practice when 
+I have no other projects on the go.
 
 ![Final project image home page](assets/images/docs/finalpage.png)
 
@@ -61,7 +62,8 @@ This is a resume site built for Abigail Harrison (me). The purpose of this site 
 
 ### User Stories
 #### Client Goals
-* 
+* For potential employers to be able to view my CV.
+* To showcase my skills to potential employers.
 
 #### First Time Visitor Goals
 * 
