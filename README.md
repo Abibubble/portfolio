@@ -93,14 +93,14 @@ I have no other projects on the go.
 
 ### Imagery
 * The background is a linear gradient of three light colors, which give an immediate impression of my personality.
-* I have included images of my finished projects within my portfolio section, to demonstrate how they look without having to click off my site.
+* I have included images of my finished projects within my portfolio section, to demonstrate how they look without having to click off my CV.
 
 ### Wireframes
 [Here are the wireframes for desktop, mobile and tablet for this project](wireframes.pdf).
 
 ### Features
 * Navigation bar visible on every page, with links to every page on the site for easy navigation.
-* Links to my portfolio projects
+* Links to my portfolio projects.
 * Links to videos of my ska band to show what I do in my free time.
 
 ---
@@ -128,6 +128,8 @@ Google DevTools was used to help me find what code correlated to what feature.
 [Am I Responsive Design](http://ami.responsivedesign.is/#) was used to check the responsive design of the quiz.
 #### Shields.io:
 [Shields.io](https://shields.io/) was used to create the GitHub badges for this README.md file.
+#### Autoprefixer CSS online
+[Autoprefixer CSS online](https://autoprefixer.github.io/) was used to ensure all prefixes for browsers were included correctly.
 
 ## Deployment
 ### Initial Deployment
@@ -153,7 +155,7 @@ This site was deployed to GitHub Pages by following these steps:
 4. Choose if you want to clone using HTTPS, SSH, or GitHub CLI, then click the copy button to the right.
 5. Open Git Bash.
 6. Change the directory to where you want your clone to go.
-7. Type gitclone and then paste the URL you copied in step 4.
+7. Type git clone and then paste the URL you copied in step 4.
 8. Press Enter to create your clone.
 
 ### Making a Local Clone
