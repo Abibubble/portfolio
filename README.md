@@ -304,9 +304,3 @@ I tested my website using DevTools Lighthouse feature, and got these results:
 * Tom Crabb, for his advice on how to make my code cleaner.
 * The team at Code Institute, for teaching me the necessary skills to create this site.
 * Conor Nye for supporting me throughout my coding journey.
-
-### To do
-* Condense menu into a dropdown on mobile
-* Fix responsive design
-* Add future projects
-* Add work description for GiffGaff
