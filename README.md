@@ -81,9 +81,11 @@ I have no other projects on the go.
 ---
 ## Design
 ### Color Scheme
-* mistyRose, skyBlue, mediumPurple for the background
-* black for text
-* white for nav pre-mouse over, skyBlue for nav on mouse over.
+* mistyRose, skyBlue, mediumPurple were used for the background, to give an impression of what I'm like as a person (they're my favourite colors).
+* Black is used for text, so as to be easy to read over any background colors.
+* White is used for the navigation before mouse over, and skyBlue is used on mouse over. This is for a clean aesthetic that also links in with the background color.
+
+![Image of colors used](LINK)
 
 ### Typography
 * I have used Arial in this site, as it's a clean and easy to read font.
