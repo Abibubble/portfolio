@@ -66,13 +66,17 @@ I have no other projects on the go.
 * To showcase my skills to potential employers.
 
 #### First Time Visitor Goals
-* 
+* To view all details on my CV.
+* To be able to easily navigate the site.
+* To be able to contact me easily.
 
 #### Returning Visitor Goals
-* 
+* To be able to contact me easily.
+* To be able to see how my skills update as I learn more.
 
 #### Frequent Visitor Goals
-* 
+* To view any new projects I have completed.
+* To be able to contact me easily.
 
 ---
 ## Design
