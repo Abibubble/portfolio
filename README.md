@@ -291,6 +291,7 @@ I tested my website using DevTools Lighthouse feature, and got these results:
 ### Code
 * [Font Awesome](https://fontawesome.com/): Library of icons used for social media and download links.
 * [Autoprefixer CSS online](https://autoprefixer.github.io/): To aid in the CSS prefixing.
+* [Lucky Irishman](https://abibubble.github.io/lucky-irishman/) was built by team Shamrocked, not all code is mine, but it was created as a team.
 
 ### Content
 * All content was written by Abi Harrison.
