@@ -30,40 +30,27 @@ nav {
     position: absolute;
     top: 0;
     width: 100%;
-    margin: 0 auto;
-    justify-content: space-between;
-    text-align: center;
-    flex-direction: row;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-
-.nav {
-    overflow: hidden;
+    column-gap: 0px;
+    border-bottom: 2px solid #221111;
 }
 
 .navbar {
     text-decoration: none;
     color: #221111;
-    border-right: 1px solid #221111;
-    border-left: 1px solid #221111;
-    padding: 10px;
+    border-right: 2px solid #221111;
+    border-left: 2px solid #221111;
+    padding-top: 20px;
+    padding-bottom: 20px;
     justify-self: center;
-    background-color: #af82c9;
+    background-color: #c99de2;
     width: 100%;
-}
-
-.icon {
-    padding: 10px;
-    background-color: white;
-    border: 1px solid black;
-    border-radius: 25%;
-    float: right;
 }
 
 /* Active class to highlight the current page */
 .active {
-    background-color: #8c57c9;
+    background-color: #996ccc;
 }
 
 /*------------------------------------------------------------------------------------------------- Index page */

@@ -4,18 +4,8 @@ function hover(id){
 }
 function normal(id) {
 	if (document.getElementById(id).classList.contains("active")) {
-		document.getElementById(id).style.backgroundColor = "#8c57c9";
+		document.getElementById(id).style.backgroundColor = "#996ccc";
 	} else {
-		document.getElementById(id).style.backgroundColor = "#af82c9";
+		document.getElementById(id).style.backgroundColor = "#c99de2";
 	}
 }
-
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu icon */
-// function dropdownMenuToggle() {
-//     let navbarContainer = document.getElementById("navbar-container");
-//     if (navbarContainer.className === "nav") {
-//         navbarContainer.className += " responsive";
-//     } else {
-//         navbarContainer.className = "nav";
-//     }
-// }
