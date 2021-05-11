@@ -115,8 +115,22 @@ header {
     justify-content: right;
 }
 
-.education-table {
+/*------------------------------------------------------------------------------------------------- Education page */
+
+.education-grid {
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.education-grid-p, .education-heading {
+    text-align: center;
+}
+
+.education-inner-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 30%;
 }
 
 .project-img {
@@ -151,10 +165,6 @@ table {
 
 .index-table {
     margin-top: 10%;
-}
-
-.education-table tr td p {
-    text-align: center;
 }
 
 th, td {
