@@ -117,6 +117,10 @@ header {
 
 /*------------------------------------------------------------------------------------------------- Education page */
 
+.education-heading {
+    text-align: center;
+}
+
 .education-grid {
     width: 80%;
     margin: auto;
