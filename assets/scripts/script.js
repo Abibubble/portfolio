@@ -3,7 +3,7 @@ function hover(id){
 	document.getElementById(id).style.backgroundColor = "skyBlue";
 }
 function normal(id) {
-	document.getElementById(id).style.backgroundColor = "white";
+	document.getElementById(id).style.backgroundColor = "#af82c9";
 }
 
 /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu icon */
