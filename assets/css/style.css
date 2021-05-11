@@ -118,7 +118,7 @@ header {
 /*------------------------------------------------------------------------------------------------- Education page */
 
 .education-grid {
-    width: 100%;
+    width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -130,7 +130,7 @@ header {
 .education-inner-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 30%;
+    width: 100%;
 }
 
 .project-img {
