@@ -27,7 +27,7 @@ hr {
 /*------------------------------------------------------------------------------------------------- Nav bar */
 
 nav {
-    position: absolute;
+    position: fixed;
     top: 0;
     width: 100%;
     display: grid;
@@ -46,6 +46,7 @@ nav {
     justify-self: center;
     background-color: #c99de2;
     width: 100%;
+    text-align: center;
 }
 
 /* Active class to highlight the current page */
@@ -61,10 +62,13 @@ nav {
     text-align: center;
 }
 
+header {
+    margin-top: 7%;
+}
+
 .heading {
     text-align: center;
     font-size: 350%;
-    margin-top: 5%;
 }
 
 .content {
