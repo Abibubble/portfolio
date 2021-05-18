@@ -121,7 +121,7 @@ header {
     text-align: center;
 }
 
-.education-grid {
+.education-grid, .portfolio-grid {
     width: 80%;
     margin: auto;
     display: grid;
@@ -144,17 +144,20 @@ header {
     margin-right: 20px;
 }
 
-.project-img {
-    width: 50%;
-    height: auto;
-    margin-left: 15%;
-    margin-top: 2%;
+/*------------------------------------------------------------------------------------------------- Portfolio page */
+
+.portfolio-grid {
+    width: 100%;
 }
 
-.left {
-    text-align: left;
-    float: left;
+.project-img {
+    width: 75%;
+    height: auto;
+    margin-left: 15%;
+    margin-bottom: 5%;
 }
+
+/*------------------------------------------------------------------------------------------------- ???? */
 
 section {
     margin-left: 3%;
