@@ -89,11 +89,36 @@
                 <div>
                     <h3>SIM order and success page analysis</h3>
                     <p>
-                        This was my first project from within the BI & Ops team. I was asked to take a look at the free SIM order pages, and look at 
-                        whether those pages were underperforming in any way, and present a hypothesis and a potential solution.
+                        This was my first project from within the BI & Ops team. I was asked to take a look at the three free SIM order pages, and look at 
+                        whether those pages were underperforming in any way, presenting a hypothesis and a potential solution.
                     </p>
                     <p>
-                        I started on Google Analytics, 
+                        I started on Google Analytics, looking at the user journeys to and from each page, and the devices they were accessing these 
+                        page from. I noticed a strange trend in which many users were exiting immediately from the 'Order a SIM' pages. This was concerning 
+                        as we don't want people leaving the website before ordering a SIM. Looking further into this, I found that users on the 'Success 
+                        page' after ordering a SIM card were returning back to the 'Order a SIM' page. Why would a user return to Order a SIM when they've 
+                        already ordered one? This led me to believe that users weren't being given the continuation options that they wanted after ordering 
+                        a SIM card.
+                    </p>
+                    <p>
+                        I found that the navigation bar was removed on the Order a SIM and Success pages, to streamline the user into the SIM ordering 
+                        process. However, this left them with a lack of future links.
+                    <ul>
+                        I had two hypotheses:
+                        <li>
+                            The users were returning to the 'Order a SIM' page to view the FAQs, which were visible on the 'Order a SIM' page, but not on 
+                            the 'Success page'. This could be fixed by linking the FAQs on the 'Success page'.
+                        </li>
+                        <li>
+                            The users were pressing the 'Back' button on their browsers, because they didn't want to follow any of the three options that 
+                            the 'Success page' gives them.
+                        </li>
+                    </ul>
+                    </p>
+                    <p>
+                        I created 3 variants in Optimize, the first variant with the FAQs also listed on the 'Success page', the second variant adding a 
+                        button to link to the FAQs on a seperate page, and a third variant with a link to the giffgaff community Hub. I presented these 
+                        hypotheses and possible solutions to the team, which I then built as an A/B test in Optimize. It is currently waiting to go live.
                     </p>
                     <a href="assets/giffgaff/sim-testing.pptx" target="_blank" download>Check out my presentation here</a>.
                 </div>
