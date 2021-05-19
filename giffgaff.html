@@ -57,7 +57,23 @@
                 </div>
                 <div>
                     <h3>Design Token Imports</h3>
-                    <p>Originally, the giffgaff design system </p>
+                    <p>
+                        The giffgaff design system is set up from the styleguide. On the design system site, it wasn't automatically updating from 
+                        the styleguide, which meant that any time the styleguide was changed or added to, the design system site had to be manually updated 
+                        to match. This was a waste of time at best, and at worst, it could end up with design styles being used incorrectly, or just missed 
+                        altogether.
+                    </p>
+                    <p>
+                        My challenge was to ensure that this updating was automated, as well as making sure that the code was displayed in the correct 
+                        coding language format for each developer depending on how they were using the styles. I set up a language shortcode in Hugo with an 
+                        if / else statement, which takes the styleguide directly from the source, and takes the language entered as the shortcode variable. 
+                    </p>
+                    <p>
+                        I then used PrismJS to find the correct formatting for each language, and ran the styleguide through the relevant formatting 
+                        before displaying it on the design system site. My only lingering issue from this is that LESS doesn't display with the correct 
+                        colour highlighting, which appears to be a small issue with PrismJS. I ran this through as CSS instead to get an easily readable 
+                        format.
+                    </p>
                     <a href="assets/giffgaff/design-token-imports.pdf" target="_blank" download>Check out my code here</a>.
                 </div>
                 <div>
