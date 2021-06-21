@@ -57,6 +57,7 @@ This is a resume site built for Abigail Harrison (me). The purpose of this site 
 ---
 ## User Experience (UX)
 ### Initial Discussion
+* The purpose of this site was to showcase my skills and abilities in a fun way, so potential employers can also get an idea of my personality.
 
 ### User Stories
 #### Client Goals
@@ -175,7 +176,8 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
     * [HTML Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabibubble.github.io%2Fcv%2F)
 
 2. W3C CSS Validator
-    * [CSS Results](LINK)
+    * [CSS Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fabibubble.github.io%2Fcv%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+    * The only error showing is because appearance: button; is fairly new, so it still shows as an invalid value.
 
 3. JSHint
     * [JSHint](https://jshint.com/)
