@@ -185,20 +185,35 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
 
 ### Testing User Stories
 #### Client Goals
-##### GOAL
-* 
+##### For potential employers to be able to view my CV.
+* The site is easily accessible, and clean to read, containing all the information that is on my CV, plus more.
+
+##### To showcase my skills to potential employers.
+* The site itself was built and designed by me, so it serves as an example of my code. I also have linked my portfolio, and my past work completed.
 
 #### First Time Visitor Goals
-##### GOAL
-* 
+##### To view all details on my CV.
+* The site is easily accessible, and clean to read, containing all the information that is on my CV, plus more.
+
+##### To be able to easily navigate the site.
+* The navigation bar is clean and easy to read and understand.
+
+##### To be able to contact me easily.
+* My contact details are both on the homepage, and also on the Contact Me page.
 
 #### Returning Visitor Goals
-##### GOAL
-* 
+##### To be able to contact me easily.
+* My contact details are both on the homepage, and also on the Contact Me page.
+
+##### To be able to see how my skills update as I learn more.
+* This site is updated as I learn, so it will constantly be being updated.
 
 #### Frequent Visitor Goals
-##### GOAL
-* 
+##### To view any new projects I have completed.
+* I have linked my portfolio, and my past work completed, which will be updated with each new piece of work that I do.
+
+##### To be able to contact me easily.
+* My contact details are both on the homepage, and also on the Contact Me page.
 
 ### Full Testing
 #### Desktop / Laptop
