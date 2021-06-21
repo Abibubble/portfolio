@@ -275,23 +275,26 @@ Friends, family members, and other developers were asked to review the site and 
 I tested my website using DevTools Lighthouse feature, and got these results:
 
 #### Desktop
-![Lighthouse desktop first try](assets/images/docs/lighthouse.png)
+![Lighthouse desktop first try](assets/images/docs/lighthouse-desktop.png)
 
 #### Mobile
-![Lighthouse mobile first try](assets/images/docs/lighthousemobile.png)
+![Lighthouse mobile first try](assets/images/docs/lighthouse-mobile.png)
 
 #### Performance:
-* FontAwesome.
+* The only place this site is losing performance is from the [Font Awesome](https://fontawesome.com/) scripts, which are slightly blocking rendering.
 
 #### Accessibility:
 * I made sure that every image used has alt text attached to it, for those who use screen readers.
 * I ensured that my background and foreground colors had sufficient contrast so that it wouldn't be difficult for those who are color blind to read any text.
+* All links are meaningful, so the text inside describes what the link leads to.
 
 #### Best Practices:
-* 
+* As I didn't use any libraries or frameworks in this site, I avoided any security risks.
+* All images are at the correct resolution.
 
 #### SEO:
-* 
+* All meta tags have been used correctly.
+* All links are crawlable.
 
 ---
 ## Credits

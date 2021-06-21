@@ -283,7 +283,7 @@ li, ul {
         font-size: 85%;
     }
     .float-right, .float-left {
-        float: center;
+        float: none;
         width: 90%;
         justify-content: center;
     }
@@ -293,5 +293,4 @@ li, ul {
     }
 }
 
-/* Active class for menu */
 /* Responsive navbar */
