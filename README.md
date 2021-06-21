@@ -1,4 +1,4 @@
-# Resume for Abigail Harrison
+# CV website for Abigail Harrison
 
 ![GitHub contributors](https://img.shields.io/github/contributors/abibubble/cv)
 ![GitHub last commit](https://img.shields.io/github/last-commit/abibubble/cv)
@@ -9,10 +9,9 @@
 
 [Here is a link to the final project](https://abibubble.github.io/cv/)
 
-This is a resume site built for Abigail Harrison (me). The purpose of this site is to showcase my skills to potential employers, and to keep myself in practice when 
-I have no other projects on the go.
+This is a resume site built for Abigail Harrison (me). The purpose of this site is to showcase my skills to potential employers, and to keep myself in practice when I have no other projects on the go.
 
-![Final project image home page](assets/images/docs/finalpage.png)
+![Final project image home page](assets/images/docs/finalsite.png)
 
 ## Contents
 
@@ -24,7 +23,6 @@ I have no other projects on the go.
     * [Color Scheme](#color-scheme)
     * [Typography](#typography)
     * [Imagery](#imagery)
-    * [Wireframes](#wireframes)
     * [Features](#features)
 
 * [Technologies Used](#technologies-used)
@@ -81,27 +79,25 @@ I have no other projects on the go.
 ---
 ## Design
 ### Color Scheme
-* mistyRose, skyBlue, mediumPurple were used for the background, to give an impression of what I'm like as a person (they're my favourite colors).
+* The linear-gradient used as the background uses #EB5F8E, #FE981D, #FCC31E, #35ADCE. I built this for the giffgaff Have A Proper Chat campaign, and it reflects my personality quite well too.
 * Black is used for text, so as to be easy to read over any background colors.
-* White is used for the navigation before mouse over, and skyBlue is used on mouse over. This is for a clean aesthetic that also links in with the background color.
+* #c99de2 is used for the navigation before mouse over, and skyBlue is used on mouse over, with #996ccc for the active page. This is for a clean aesthetic that also links in with the bright background colors.
 
-![Image of colors used](LINK)
+![Image of colors used](colors.png)
 
 ### Typography
 * I have used Arial in this site, as it's a clean and easy to read font.
 * Arial is also a built-in font for HTML, so it won't have any issues being displayed on other browsers.
 
 ### Imagery
-* The background is a linear gradient of three light colors, which give an immediate impression of my personality.
+* The background is a linear gradient of four bright colors, which give an immediate impression of my personality.
 * I have included images of my finished projects within my portfolio section, to demonstrate how they look without having to click off my CV.
-
-### Wireframes
-[Here are the wireframes for desktop, mobile and tablet for this project](wireframes.pdf).
 
 ### Features
 * Navigation bar visible on every page, with links to every page on the site for easy navigation.
 * Links to my portfolio projects.
 * Links to videos of my ska band to show what I do in my free time.
+* Downloadable PDF files of my work with giffgaff.
 
 ---
 
@@ -176,13 +172,15 @@ For a more detailed version of these steps, go to the [Github Docs](https://docs
 The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the project to ensure there were no syntax errors within the site.
 
 1. W3C Markup Validator
-    * [HTML Results](LINK)
+    * [HTML Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fabibubble.github.io%2Fcv%2F)
 
 2. W3C CSS Validator
     * [CSS Results](LINK)
 
 3. JSHint
     * [JSHint](https://jshint.com/)
+
+![JSHint Results](assets/images/docs/jshint.png)
 
 
 ### Testing User Stories
@@ -203,40 +201,35 @@ The W3C Markup Validator, W3C CSS Validator and JSHint were used to validate the
 * 
 
 ### Full Testing
-[Click here](testing.md) to view the full testing steps that were completed on every device and browser, and screenshots of testing.
-
 #### Desktop / Laptop
 1. Google Chrome
     * All tested and working correctly.
 
 2. Microsoft Edge
-    * 
+    * All tested and working correctly.
 
 3. Mozilla Firefox
-    * 
-
-4. Internet Explorer
-    * 
+    * All tested and working correctly.
 
 5. Safari
-    * 
+    * All tested and working correctly.
 
 #### Tablet
 1. Safari
-    * 
+    * All tested and working correctly.
 
 #### Mobile
 1. Google Chrome
-    * 
+    * All tested and working correctly.
 
 2. Safari
-    * 
+    * All tested and working correctly.
 
 3. Samsung Internet
-    * 
+    * All tested and working correctly.
 
 ### Further Testing
-The website was tested on Google Chrome, Firefox, Internet Explorer, Microsoft Edge, Safari and Samsung Internet browsers.
+The website was tested on Google Chrome, Firefox, Microsoft Edge, Safari and Samsung Internet browsers. I did not test this site on Internet Explorer, due to it being depreciated in favour of Microsoft Edge.
 The website was viewed on a variety of devices, including:
 * Custom built desktop PC, running Windows 10
 * Acer Aspire V Nitro Laptop, running Windows 10
@@ -258,11 +251,10 @@ A large amount of testing was done to ensure that all pages were visible or hidd
 Friends, family members, and other developers were asked to review the site and documentation to point out any bugs and/or user experience issues that they came across.
 
 ### Solved Bugs
-1. 
-    * 
+1. None at present.
 
 ### Known Bugs
-* None
+* The navigation bar is not responsive. This is currently being worked on.
 
 ### Lighthouse
 I tested my website using DevTools Lighthouse feature, and got these results:
@@ -292,6 +284,7 @@ I tested my website using DevTools Lighthouse feature, and got these results:
 * [Font Awesome](https://fontawesome.com/): Library of icons used for social media and download links.
 * [Autoprefixer CSS online](https://autoprefixer.github.io/): To aid in the CSS prefixing.
 * [Lucky Irishman](https://abibubble.github.io/lucky-irishman/) was built by team Shamrocked, not all code is mine, but it was created as a team.
+* [LGBTQ+ History](https://abibubble.github.io/pride-hackathon/) was built by team M8, not all code is mine, but it was created as a team.
 
 ### Content
 * All content was written by Abi Harrison.
