@@ -116,6 +116,10 @@ header {
     justify-content: right;
 }
 
+.contact-table-info {
+    padding: 10px;
+}
+
 /*------------------------------------------------------------------------------------------------- Education page */
 
 .education-heading {

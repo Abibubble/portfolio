@@ -281,7 +281,7 @@ I tested my website using DevTools Lighthouse feature, and got these results:
 ![Lighthouse mobile first try](assets/images/docs/lighthousemobile.png)
 
 #### Performance:
-* 
+* FontAwesome.
 
 #### Accessibility:
 * I made sure that every image used has alt text attached to it, for those who use screen readers.
