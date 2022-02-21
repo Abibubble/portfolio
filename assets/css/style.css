@@ -242,10 +242,6 @@ li, ul {
     display: none;
 }
 
-@media all and (min-width: 960px) {
-    /* Mobile design */
-}
-
 @media only screen and (min-width: 1201px) {
     #profile {
         margin-left: 200px;
