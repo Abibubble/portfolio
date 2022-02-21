@@ -50,9 +50,14 @@ nav {
     text-align: center;
 }
 
-/* Active class to highlight the current page */
-.active {
+.navbar:hover,
+.narbar:focus,
+.navbar:focus-within {
     background-color: #996ccc;
+}
+
+.active {
+    background-color: #68afdf;
 }
 
 /*------------------------------------------------------------------------------------------------- Index page */
