@@ -89,9 +89,9 @@ p {
 }
 
 .header img {
-	height: calc(var(--header-height) - 10px);
+	height: var(--header-height);
 	position: fixed;
-	top: 5px;
+	top: 0;
 	left: 5px;
 }
 
@@ -101,7 +101,6 @@ nav {
 }
 
 .nav-menu {
-	text-align: center;
 	grid-template-columns: 1fr;
 	grid-template-rows: repeat(5, 1fr);
 }
@@ -125,7 +124,7 @@ nav {
 .navbar-toggle {
 	background-color: var(--purple);
 	display: inline;
-	width: 25%;
+	width: 22%;
 	height: 100%;
 	position: fixed;
 	top: var(--header-height);
@@ -142,6 +141,11 @@ nav {
 
 .bar-icon {
 	text-shadow: 0 0 5px var(--blue);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+	text-decoration: underline;
 }
 
 /* ---------------------------------------------------------------- Index page */
@@ -238,30 +242,14 @@ footer p {
 
 /* ---------------------------------------------------------------- Media queries */
 
-@media only screen and (max-width: 768px) {
-	.project-img {
-		width: 90%;
-		margin-left: 2%;
-	}
-
-	.education-grid,
-	.portfolio-grid {
-		grid-template-columns: 1fr;
-	}
-
-	.navbar-toggle {
-		width: 50%;
-	}
-
-	.header img {
-		height: var(--header-height);
-		left: 15px;
-		top: 0;
+@media screen and (min-width: 768px) {
+	.content {
+		width: 70%;
 	}
 }
 
-@media screen and (max-width: 450px) {
-	.navbar-toggle {
-		width: 100%;
+@media screen and (min-width: 1140px) {
+	.content {
+		width: 50%;
 	}
 }
