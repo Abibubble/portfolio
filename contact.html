@@ -1,105 +1,193 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="robots" content="index, follow">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="A portfolio site for Abi Harrison, to display all interests, work, and past projects.">
-        <meta name="keywords" content="abi, harrison, portfolio, cv, software, developer, engineer, development, coding, web">
-        <link rel="canonical" href="https://abibubble.github.io/portfolio/">
-        <!-- Facebook, LinkedIn, Google -->
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" name="title" content="Abi Harrison Portfolio Site"/>
-        <meta property="og:description" content="A portfolio site for Abi Harrison, to display all interests, work, and past projects."/>
-        <meta property="og:url" content="https://abibubble.github.io/portfolio/"/>
-        <meta property="og:site_name" content="Abi Harrison Portfolio Site"/>
-        <meta property="og:image" name="image" content="assets/docs/finalsite.png"/>
-        <meta property="og:image:alt" content="This portfolio site on a variety of devices">
-        <meta name="author" content="Abi Harrison">
-        <!-- Twitter -->
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="Abi Harrison Portfolio Site">
-        <meta name="twitter:description" content="A portfolio site for Abi Harrison, to display all interests, work, and past projects.">
-        <meta name="twitter:image" content="assets/docs/finalsite.png">
-        <meta name="twitter:image:alt" content="This portfolio site site on a variety of devices">
-        <meta name="twitter:creator" content="@Abi_Hazard">
-        <meta name="twitter:site" content="@Abi_Hazard">
-        <!-- Favicon -->
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-        <link rel="manifest" href="assets/favicon/site.webmanifest" crossorigin="use-credentials">
-        <!-- Local stylesheets -->
-        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-        <link rel="stylesheet" href="assets/css/contact.css" type="text/css">
-        <!-- Font Awesome -->
-        <script src="https://kit.fontawesome.com/98131a9f62.js" crossorigin="anonymous"></script>
-        <title>Abi Harrison Portfolio Site</title>
-        <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-        <script type="text/javascript" src="assets/scripts/email.js"></script>
-    </head>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="robots" content="index, follow" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta
+			name="description"
+			content="A portfolio site for Abi Harrison, to display all interests, work, and past projects."
+		/>
+		<meta
+			name="keywords"
+			content="abi, harrison, portfolio, cv, software, developer, engineer, development, coding, web"
+		/>
+		<link rel="canonical" href="https://abibubble.github.io/portfolio/" />
+		<!-- Facebook, LinkedIn, Google -->
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:title"
+			name="title"
+			content="Abi Harrison Portfolio Site"
+		/>
+		<meta
+			property="og:description"
+			content="A portfolio site for Abi Harrison, to display all interests, work, and past projects."
+		/>
+		<meta property="og:url" content="https://abibubble.github.io/portfolio/" />
+		<meta property="og:site_name" content="Abi Harrison Portfolio Site" />
+		<meta
+			property="og:image"
+			name="image"
+			content="assets/docs/finalsite.png"
+		/>
+		<meta
+			property="og:image:alt"
+			content="This portfolio site on a variety of devices"
+		/>
+		<meta name="author" content="Abi Harrison" />
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="Abi Harrison Portfolio Site" />
+		<meta
+			name="twitter:description"
+			content="A portfolio site for Abi Harrison, to display all interests, work, and past projects."
+		/>
+		<meta name="twitter:image" content="assets/docs/finalsite.png" />
+		<meta
+			name="twitter:image:alt"
+			content="This portfolio site site on a variety of devices"
+		/>
+		<meta name="twitter:creator" content="@Abi_Hazard" />
+		<meta name="twitter:site" content="@Abi_Hazard" />
+		<!-- Favicon -->
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="assets/favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="assets/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="assets/favicon/favicon-16x16.png"
+		/>
+		<link
+			rel="manifest"
+			href="assets/favicon/site.webmanifest"
+			crossorigin="use-credentials"
+		/>
+		<!-- Local stylesheets -->
+		<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+		<link rel="stylesheet" href="assets/css/contact.css" type="text/css" />
+		<!-- Font Awesome -->
+		<script
+			src="https://kit.fontawesome.com/98131a9f62.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Abi Harrison Portfolio Site</title>
+		<script
+			type="text/javascript"
+			src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+		></script>
+		<script type="text/javascript" src="assets/scripts/email.js"></script>
+	</head>
 
-    <body>
-        <nav id="navbar-container" class="nav">
-            <a href="index.html" id="index" class="navbar">
-                <i class="fa fa-home" aria-hidden="true"></i> Homepage
-            </a>
-            <a href="skills.html" id="skills" class="navbar">
-                <i class="fa fa-code" aria-hidden="true"></i> Skills
-            </a>
-            <a href="portfolio.html" id="portfolio" class="navbar">
-                <i class="fa fa-book" aria-hidden="true"></i> Portfolio
-            </a>
-            <a href="work.html" id="work" class="navbar">
-                <i class="fa fa-briefcase" aria-hidden="true"></i> Past Work
-            </a>
-            <a href="education.html" id="education" class="navbar">
-                <i class="fa fa-graduation-cap" aria-hidden="true"></i> Education
-            </a>
-            <a href="accomplishments.html" id="accomplishments" class="navbar">
-                <i class="fa fa-thumbs-up" aria-hidden="true"></i> Accomplishments
-            </a>
-            <a href="interests.html" id="interests" class="navbar">
-                <i class="fa fa-heart" aria-hidden="true"></i> Interests
-            </a>
-            <a href="contact.html" id="contact" class="navbar active">
-                <i class="fa fa-address-card-o" aria-hidden="true"></i> Contact Me
-            </a>
-        </nav>
-        <div class="content">
-            <div class="center">
-                <header>
-                    <h1 class="heading">Abigail Harrison</h1>
-                </header>
-                <hr>
-                <h2>Say Hi...</h2>
-                <br>
-                <form id="contact-form" class="contact-form">
-                    <input type="hidden" name="contact_number">
-                    <label>Name</label>
-                    <input type="text" name="user_name">
-                    <label>Email</label>
-                    <input type="email" name="user_email">
-                    <label>Message</label>
-                    <textarea name="message"></textarea>
-                    <input type="submit" value="Send">
-                </form>
-                <br>
-                <div class="contact-grid">
-                    <p><i class="fa fa-address-card-o" aria-hidden="true"></i> Address</p>
-                    <p>Northwood, HA6</p>
-                    <p><i class="fa fa-phone" aria-hidden="true"></i> Phone number</p>
-                    <p>07927 291 095</p>
-                    <p><i class="fa fa-envelope-o" aria-hidden="true"></i> Email address</p>
-                    <p>abi.yamaha.neo@gmail.com</p>
-                    <p><i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn</p>
-                    <a href="www.linkedin.com/in/abigail-harrison-abibubble">Abigail Harrison</a>
-                    <p><i class="fa fa-github" aria-hidden="true"></i> GitHub</p>
-                    <a href="https://github.com/Abibubble/">Abibubble</a>
-                </div>
-            </div>
-        </div>
-        <script src="assets/scripts/script.js"></script>
-    </body>
+	<body>
+		<header class="header">
+			<a href="index.html">
+				<img
+					src="assets/images/logo.png"
+					alt="Abi Harrison's logo, an A in a light purple diamond"
+				/>
+			</a>
+			<nav class="menu" id="menu">
+				<ul class="nav-menu">
+					<li class="nav-link">
+						<a href="index.html" id="index" class="navbar active">
+							<i class="fa fa-home" aria-hidden="true"></i> Homepage
+						</a>
+					</li>
+					<li class="nav-link">
+						<a href="skills.html" id="skills" class="navbar">
+							<i class="fa fa-code" aria-hidden="true"></i> Skills
+						</a>
+					</li>
+					<li class="nav-link">
+						<a href="portfolio.html" id="portfolio" class="navbar">
+							<i class="fa fa-book" aria-hidden="true"></i> Portfolio
+						</a>
+					</li>
+					<li class="nav-link">
+						<a href="work.html" id="work" class="navbar">
+							<i class="fa fa-briefcase" aria-hidden="true"></i> Past Work
+						</a>
+					</li>
+					<li class="nav-link">
+						<a href="education.html" id="education" class="navbar">
+							<i class="fa fa-graduation-cap" aria-hidden="true"></i> Education
+						</a>
+					</li>
+					<li class="nav-link">
+						<a href="accomplishments.html" id="accomplishments" class="navbar">
+							<i class="fa fa-thumbs-up" aria-hidden="true"></i> Accomplishments
+						</a>
+					</li>
+					<li class="nav-link">
+						<a href="interests.html" id="interests" class="navbar">
+							<i class="fa fa-heart" aria-hidden="true"></i> Interests
+						</a>
+					</li>
+					<li class="nav-link">
+						<a href="contact.html" id="contact" class="navbar">
+							<i class="fa fa-address-card-o" aria-hidden="true"></i> Contact Me
+						</a>
+					</li>
+				</ul>
+			</nav>
+
+			<div class="menu-bar tap-target" role="button" id="burger-icon">
+				<span class="sr-only">Open the navigation menu</span>
+				<i class="fas fa-bars fa-2x tap-target bar-icon"></i>
+			</div>
+		</header>
+		<main class="content">
+			<div>
+				<h1>Abigail Harrison</h1>
+				<hr />
+				<h2>Say Hi...</h2>
+				<br />
+				<form id="contact-form" class="contact-form">
+					<input type="hidden" name="contact_number" />
+					<label for="name">Name</label>
+					<input type="text" name="user_name" id="name" />
+					<label for="email">Email</label>
+					<input type="email" name="user_email" id="email" />
+					<label for="message">Message</label>
+					<textarea name="message" id="message"></textarea>
+					<input type="submit" value="Send" />
+				</form>
+				<br />
+				<div class="contact-grid">
+					<p><i class="fa fa-address-card-o" aria-hidden="true"></i> Address</p>
+					<p>Northwood, HA6</p>
+					<p><i class="fa fa-phone" aria-hidden="true"></i> Phone number</p>
+					<p>07927 291 095</p>
+					<p>
+						<i class="fa fa-envelope-o" aria-hidden="true"></i> Email address
+					</p>
+					<p>abi.yamaha.neo@gmail.com</p>
+					<p>
+						<i class="fa fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+					</p>
+					<a href="www.linkedin.com/in/abigail-harrison-abibubble"
+						>Abigail Harrison</a
+					>
+					<p><i class="fa fa-github" aria-hidden="true"></i> GitHub</p>
+					<a href="https://github.com/Abibubble/">Abibubble</a>
+				</div>
+			</div>
+		</main>
+		<footer>
+			<p>Copyright &copy; Abi Harrison <span id="copyright"></span></p>
+		</footer>
+		<script src="assets/scripts/script.js"></script>
+	</body>
 </html>

@@ -1,209 +1,439 @@
 <!DOCTYPE html>
 <html lang="en-us">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="robots" content="index, follow" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta
+			name="description"
+			content="A portfolio site for Abi Harrison, to display all interests, work, and past projects."
+		/>
+		<meta
+			name="keywords"
+			content="abi, harrison, portfolio, cv, software, developer, engineer, development, coding, web"
+		/>
+		<link rel="canonical" href="https://abibubble.github.io/portfolio/" />
+		<!-- Facebook, LinkedIn, Google -->
+		<meta property="og:type" content="website" />
+		<meta
+			property="og:title"
+			name="title"
+			content="Abi Harrison Portfolio Site"
+		/>
+		<meta
+			property="og:description"
+			content="A portfolio site for Abi Harrison, to display all interests, work, and past projects."
+		/>
+		<meta property="og:url" content="https://abibubble.github.io/portfolio/" />
+		<meta property="og:site_name" content="Abi Harrison Portfolio Site" />
+		<meta
+			property="og:image"
+			name="image"
+			content="assets/docs/finalsite.png"
+		/>
+		<meta
+			property="og:image:alt"
+			content="This portfolio site on a variety of devices"
+		/>
+		<meta name="author" content="Abi Harrison" />
+		<!-- Twitter -->
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content="Abi Harrison Portfolio Site" />
+		<meta
+			name="twitter:description"
+			content="A portfolio site for Abi Harrison, to display all interests, work, and past projects."
+		/>
+		<meta name="twitter:image" content="assets/docs/finalsite.png" />
+		<meta
+			name="twitter:image:alt"
+			content="This portfolio site site on a variety of devices"
+		/>
+		<meta name="twitter:creator" content="@Abibubble" />
+		<meta name="twitter:site" content="@Abibubble" />
+		<!-- Favicon -->
+		<link
+			rel="apple-touch-icon"
+			sizes="180x180"
+			href="assets/favicon/apple-touch-icon.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="assets/favicon/favicon-32x32.png"
+		/>
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="16x16"
+			href="assets/favicon/favicon-16x16.png"
+		/>
+		<link
+			rel="manifest"
+			href="assets/favicon/site.webmanifest"
+			crossorigin="use-credentials"
+		/>
+		<!-- Local stylesheet -->
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<!-- Font Awesome -->
+		<script
+			src="https://kit.fontawesome.com/98131a9f62.js"
+			crossorigin="anonymous"
+		></script>
+		<title>Abi Harrison Portfolio Site</title>
+	</head>
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <meta name="robots" content="index, follow">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="A portfolio site for Abi Harrison, to display all interests, work, and past projects.">
-        <meta name="keywords" content="abi, harrison, portfolio, cv, software, developer, engineer, development, coding, web">
-        <link rel="canonical" href="https://abibubble.github.io/portfolio/">
-        <!-- Facebook, LinkedIn, Google -->
-        <meta property="og:type" content="website"/>
-        <meta property="og:title" name="title" content="Abi Harrison Portfolio Site"/>
-        <meta property="og:description" content="A portfolio site for Abi Harrison, to display all interests, work, and past projects."/>
-        <meta property="og:url" content="https://abibubble.github.io/portfolio/"/>
-        <meta property="og:site_name" content="Abi Harrison Portfolio Site"/>
-        <meta property="og:image" name="image" content="assets/docs/finalsite.png"/>
-        <meta property="og:image:alt" content="This portfolio site on a variety of devices">
-        <meta name="author" content="Abi Harrison">
-        <!-- Twitter -->
-        <meta name="twitter:card" content="summary">
-        <meta name="twitter:title" content="Abi Harrison Portfolio Site">
-        <meta name="twitter:description" content="A portfolio site for Abi Harrison, to display all interests, work, and past projects.">
-        <meta name="twitter:image" content="assets/docs/finalsite.png">
-        <meta name="twitter:image:alt" content="This portfolio site site on a variety of devices">
-        <meta name="twitter:creator" content="@Abibubble">
-        <meta name="twitter:site" content="@Abibubble">
-        <!-- Favicon -->
-        <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-        <link rel="manifest" href="assets/favicon/site.webmanifest" crossorigin="use-credentials">
-        <!-- Local stylesheet -->
-        <link rel="stylesheet" href="assets/css/style.css">
-        <!-- Font Awesome -->
-        <script src="https://kit.fontawesome.com/98131a9f62.js" crossorigin="anonymous"></script>
-        <title>Abi Harrison Portfolio Site</title>
-    </head>
+	<body>
+		<header class="header">
+			<a href="index.html">
+				<img
+					src="assets/images/logo.png"
+					alt="Abi Harrison's logo, an A in a light purple diamond"
+				/>
+			</a>
+			<nav class="menu" id="menu">
+				<ul class="nav-menu">
+					<li class="nav-link">
+						<a href="index.html" id="index" class="navbar active">
+							<i class="fa fa-home" aria-hidden="true"></i> Homepage
+						</a>
+					</li>
+					<li class="nav-link">
+						<a href="skills.html" id="skills" class="navbar">
+							<i class="fa fa-code" aria-hidden="true"></i> Skills
+						</a>
+					</li>
+					<li class="nav-link">
+						<a href="portfolio.html" id="portfolio" class="navbar">
+							<i class="fa fa-book" aria-hidden="true"></i> Portfolio
+						</a>
+					</li>
+					<li class="nav-link">
+						<a href="work.html" id="work" class="navbar">
+							<i class="fa fa-briefcase" aria-hidden="true"></i> Past Work
+						</a>
+					</li>
+					<li class="nav-link">
+						<a href="education.html" id="education" class="navbar">
+							<i class="fa fa-graduation-cap" aria-hidden="true"></i> Education
+						</a>
+					</li>
+					<li class="nav-link">
+						<a href="accomplishments.html" id="accomplishments" class="navbar">
+							<i class="fa fa-thumbs-up" aria-hidden="true"></i> Accomplishments
+						</a>
+					</li>
+					<li class="nav-link">
+						<a href="interests.html" id="interests" class="navbar">
+							<i class="fa fa-heart" aria-hidden="true"></i> Interests
+						</a>
+					</li>
+					<li class="nav-link">
+						<a href="contact.html" id="contact" class="navbar">
+							<i class="fa fa-address-card-o" aria-hidden="true"></i> Contact Me
+						</a>
+					</li>
+				</ul>
+			</nav>
 
-    <body>
-        <nav id="navbar-container" class="nav">
-            <a href="index.html" id="index" class="navbar">
-                <i class="fa fa-home" aria-hidden="true"></i> Homepage
-            </a>
-            <a href="skills.html" id="skills" class="navbar">
-                <i class="fa fa-code" aria-hidden="true"></i> Skills
-            </a>
-            <a href="portfolio.html" id="portfolio" class="navbar active">
-                <i class="fa fa-book" aria-hidden="true"></i> Portfolio
-            </a>
-            <a href="work.html" id="work" class="navbar">
-                <i class="fa fa-briefcase" aria-hidden="true"></i> Past Work
-            </a>
-            <a href="education.html" id="education" class="navbar">
-                <i class="fa fa-graduation-cap" aria-hidden="true"></i> Education
-            </a>
-            <a href="accomplishments.html" id="accomplishments" class="navbar">
-                <i class="fa fa-thumbs-up" aria-hidden="true"></i> Accomplishments
-            </a>
-            <a href="interests.html" id="interests" class="navbar">
-                <i class="fa fa-heart" aria-hidden="true"></i> Interests
-            </a>
-            <a href="contact.html" id="contact" class="navbar">
-                <i class="fa fa-address-card-o" aria-hidden="true"></i> Contact Me
-            </a>
-        </nav>
+			<div class="menu-bar tap-target" role="button" id="burger-icon">
+				<span class="sr-only">Open the navigation menu</span>
+				<i class="fas fa-bars fa-2x tap-target bar-icon"></i>
+			</div>
+		</header>
 
-        <div class="content">
-            <header>
-                <h1 class="heading">Abigail Harrison</h1>
-            </header>
-            <hr>
+		<main class="content">
+			<h1>Abigail Harrison</h1>
+			<hr />
 
-            <h2 class="center">Portfolio</h2>
-            <h3 class="center">
-                Now you've seen my CV, it's time to take a look at my other projects.
-            </h3>
-            <br>
+			<h2>Portfolio</h2>
+			<br />
 
-            <div class="portfolio-grid">
-                <div>
-                    <h4>The Bar Blade</h4>
-                    <a href="https://ms3-the-bar-blade.herokuapp.com/" rel="noopener" target="_blank">Click here to view this project</a>
-                    <a href="https://github.com/Abibubble/ms3-the-bar-blade" rel="noopener" target="_blank">Click here to view the GitHub repository for this project</a>
-                    <ul>
-                        <li>
-                            This is a cocktail recipe site, made for bartenders, by bartenders. It's built using HTML, CSS, JavaScript, Python, Flask, Jinja, 
-                            MaterializeCSS and MongoDB.
-                        </li>
-                        <li>
-                            I chose to use MaterializeCSS framework for this project, as I hadn't used Materialize before and wanted to experiment with its use.
-                        </li>
-                        <li>
-                            This was my first full-stack project, and it was really exciting getting to see users registering to the site and adding their own 
-                            cocktails.
-                        </li>
-                        <li>
-                            I used the Jinja templating language for this project so as to easily populate the data onto my site. I've had some experience using 
-                            Hugo in the past, and this was very alike, so I enjoyed it.
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="assets/images/tbb-site.png" class="project-img" alt="An image showing The Bar Blade website on a variety of devices">
-                </div>
+			<div class="portfolio-grid">
+				<div>
+					<h4>The Bar Blade</h4>
+					<a
+						href="https://ms3-the-bar-blade.herokuapp.com/"
+						rel="noopener"
+						target="_blank"
+						>Click here to view this project</a
+					>
+					<a
+						href="https://github.com/Abibubble/ms3-the-bar-blade"
+						rel="noopener"
+						target="_blank"
+						>Click here to view the GitHub repository for this project</a
+					>
+					<ul>
+						<li>
+							This is a cocktail recipe site, made for bartenders, by
+							bartenders. It's built using HTML, CSS, JavaScript, Python, Flask,
+							Jinja, MaterializeCSS and MongoDB.
+						</li>
+						<li>
+							I chose to use MaterializeCSS framework for this project, as I
+							hadn't used Materialize before and wanted to experiment with its
+							use.
+						</li>
+						<li>
+							This was my first full-stack project, and it was really exciting
+							getting to see users registering to the site and adding their own
+							cocktails.
+						</li>
+						<li>
+							I used the Jinja templating language for this project so as to
+							easily populate the data onto my site. I've had some experience
+							using Hugo in the past, and this was very alike, so I enjoyed it.
+						</li>
+					</ul>
+				</div>
+				<div>
+					<img
+						src="assets/images/tbb-site.png"
+						class="project-img"
+						alt="An image showing The Bar Blade website on a variety of devices"
+					/>
+				</div>
 
-                <div>
-                    <h4>LGBTQ+ History website</h4>
-                    <a href="https://abibubble.github.io/pride-hackathon/" rel="noopener" target="_blank">Click here to view this project</a>
-                    <a href="https://github.com/Abibubble/PrideHackathon" rel="noopener" target="_blank">Click here to view the GitHub repository for this project</a>
-                    <ul>
-                        <li>This is an informative history site, themed around LGBTQ+ Pride. It was created by my team in the Code Institute June 2021 Hackathon, with the theme 
-                            of 'Proud Coders' from 16th to 21st June.
-                        </li>
-                        <li>We put a particular focus on styling, using the following:
-                            <ul>
-                                <li>We used Bootstrap to enable us to create the base styling quickly and easily, as we were very limited on time.</li>
-                                <li>We chose not to use jQuery due to associated security issues and slow load times.</li>
-                                <li>We ensured that all images were sized correctly for the largest image size, then scaled down properly with responsive design.</li>
-                                <li>We created a basic JavaScript function to show or hide the information as the user wishes.</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="assets/images/lgbtq-site.png" class="project-img" alt="An image showing the LGBTQ+ website on a variety of devices">
-                </div>
+				<div>
+					<h4>LGBTQ+ History website</h4>
+					<a
+						href="https://abibubble.github.io/pride-hackathon/"
+						rel="noopener"
+						target="_blank"
+						>Click here to view this project</a
+					>
+					<a
+						href="https://github.com/Abibubble/PrideHackathon"
+						rel="noopener"
+						target="_blank"
+						>Click here to view the GitHub repository for this project</a
+					>
+					<ul>
+						<li>
+							This is an informative history site, themed around LGBTQ+ Pride.
+							It was created by my team in the Code Institute June 2021
+							Hackathon, with the theme of 'Proud Coders' from 16th to 21st
+							June.
+						</li>
+						<li>
+							We put a particular focus on styling, using the following:
+							<ul>
+								<li>
+									We used Bootstrap to enable us to create the base styling
+									quickly and easily, as we were very limited on time.
+								</li>
+								<li>
+									We chose not to use jQuery due to associated security issues
+									and slow load times.
+								</li>
+								<li>
+									We ensured that all images were sized correctly for the
+									largest image size, then scaled down properly with responsive
+									design.
+								</li>
+								<li>
+									We created a basic JavaScript function to show or hide the
+									information as the user wishes.
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div>
+					<img
+						src="assets/images/lgbtq-site.png"
+						class="project-img"
+						alt="An image showing the LGBTQ+ website on a variety of devices"
+					/>
+				</div>
 
-                <div>
-                    <h4>Harry Potter Sorting Hat</h4>
-                    <a href="https://abibubble.github.io/sorting-hat/" rel="noopener" target="_blank">Click here to view this project</a>
-                    <a href="https://github.com/Abibubble/sorting-hat" rel="noopener" target="_blank">Click here to view the GitHub repository for this project</a>
-                    <ul>
-                        <li>This is a simple randomiser built on the theme of a Sorting Hat.</li>
-                        <li>It is built with HTML, CSS and vanilla JavaScript, as it's a very basic project, make for my Girl Guide unit for a Harry Potter-themed sleepover.</li>
-                        <li>I intend to add further functionality in the form of questions to decide which house the user is in, in the future.</li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="assets/images/sh-site.png" class="project-img" alt="An image showing my sorting hat site on a variety of devices">
-                </div>
+				<div>
+					<h4>Harry Potter Sorting Hat</h4>
+					<a
+						href="https://abibubble.github.io/sorting-hat/"
+						rel="noopener"
+						target="_blank"
+						>Click here to view this project</a
+					>
+					<a
+						href="https://github.com/Abibubble/sorting-hat"
+						rel="noopener"
+						target="_blank"
+						>Click here to view the GitHub repository for this project</a
+					>
+					<ul>
+						<li>
+							This is a simple randomiser built on the theme of a Sorting Hat.
+						</li>
+						<li>
+							It is built with HTML, CSS and vanilla JavaScript, as it's a very
+							basic project, make for my Girl Guide unit for a Harry
+							Potter-themed sleepover.
+						</li>
+						<li>
+							I intend to add further functionality in the form of questions to
+							decide which house the user is in, in the future.
+						</li>
+					</ul>
+				</div>
+				<div>
+					<img
+						src="assets/images/sh-site.png"
+						class="project-img"
+						alt="An image showing my sorting hat site on a variety of devices"
+					/>
+				</div>
 
-                <div>
-                    <h4>Lucky Irishman</h4>
-                    <a href="https://abibubble.github.io/lucky-irishman/" rel="noopener" target="_blank">Click here to view this project</a>
-                    <a href="https://github.com/shamrocked/lucky-irishman" rel="noopener" target="_blank">Click here to view the GitHub repository for this project</a>
-                    <ul>
-                        <li>This is an interactive drinking game site, themed around St. Patrick's Day. It was created by my team in the Code Institute March 2021 Hackathon, with the theme 
-                            of 'Hacking St. Patrick's Day' from 3rd to 8th March.
-                        </li>
-                        <li>We put a particular focus on styling and interactivity, using the following:
-                            <ul>
-                                <li>We used Bootstrap to enable us to create the base styling quickly and easily, as we were very limited on time.</li>
-                                <li>We chose not to use jQuery due to associated security issues and slow load times.</li>
-                                <li>We ensured that all images were sized correctly for the largest image size, then scaled down properly with responsive design.</li>
-                                <li>We created a flip animation for the cards, using a mix of CSS and JavaScript.</li>
-                            </ul>
-                        </li>
-                        <li>This was my first experience of coding as part of a team, and it was an incredibly rewarding experience.</li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="assets/images/li-site.png" class="project-img" alt="An image showing the Lucky Irishman site on a variety of devices">
-                </div>
+				<div>
+					<h4>Lucky Irishman</h4>
+					<a
+						href="https://abibubble.github.io/lucky-irishman/"
+						rel="noopener"
+						target="_blank"
+						>Click here to view this project</a
+					>
+					<a
+						href="https://github.com/shamrocked/lucky-irishman"
+						rel="noopener"
+						target="_blank"
+						>Click here to view the GitHub repository for this project</a
+					>
+					<ul>
+						<li>
+							This is an interactive drinking game site, themed around St.
+							Patrick's Day. It was created by my team in the Code Institute
+							March 2021 Hackathon, with the theme of 'Hacking St. Patrick's
+							Day' from 3rd to 8th March.
+						</li>
+						<li>
+							We put a particular focus on styling and interactivity, using the
+							following:
+							<ul>
+								<li>
+									We used Bootstrap to enable us to create the base styling
+									quickly and easily, as we were very limited on time.
+								</li>
+								<li>
+									We chose not to use jQuery due to associated security issues
+									and slow load times.
+								</li>
+								<li>
+									We ensured that all images were sized correctly for the
+									largest image size, then scaled down properly with responsive
+									design.
+								</li>
+								<li>
+									We created a flip animation for the cards, using a mix of CSS
+									and JavaScript.
+								</li>
+							</ul>
+						</li>
+						<li>
+							This was my first experience of coding as part of a team, and it
+							was an incredibly rewarding experience.
+						</li>
+					</ul>
+				</div>
+				<div>
+					<img
+						src="assets/images/li-site.png"
+						class="project-img"
+						alt="An image showing the Lucky Irishman site on a variety of devices"
+					/>
+				</div>
 
-                <div>
-                    <h4>Harry Potter quiz</h4>
-                    <a href="https://abibubble.github.io/milestone2-harry-potter-quiz/" rel="noopener" target="_blank">Click here to view this project</a>
-                    <a href="https://github.com/Abibubble/milestone2-harry-potter-quiz" rel="noopener" target="_blank">Click here to view the GitHub repository for this project</a>
-                    <ul>
-                        <li>This is an interactive Harry Potter themed quiz, built using HTML, CSS and JavaScript.</li>
-                        <li>I chose not to use any libraries or frameworks for this project for several reasons:
-                            <ul>
-                                <li>To showcase my coding and debugging skills, which I feel I didn't do as well as I could
-                                    in the Esape Pool Bar website, due to using Bootstrap.</li>
-                                <li>Due to the performance trade-offs often caused by libraries and frameworks.</li>
-                            </ul>
-                        </li>
-                        <li>This was my first project built using JavaScript, and I really enjoyed the freedom and
-                            flexibility that JavaScript gave me.</li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="assets/images/hp-site.png" class="project-img" alt="An image showing my Harry Potter quiz site on a variety of devices">
-                </div>
+				<div>
+					<h4>Harry Potter quiz</h4>
+					<a
+						href="https://abibubble.github.io/milestone2-harry-potter-quiz/"
+						rel="noopener"
+						target="_blank"
+						>Click here to view this project</a
+					>
+					<a
+						href="https://github.com/Abibubble/milestone2-harry-potter-quiz"
+						rel="noopener"
+						target="_blank"
+						>Click here to view the GitHub repository for this project</a
+					>
+					<ul>
+						<li>
+							This is an interactive Harry Potter themed quiz, built using HTML,
+							CSS and JavaScript.
+						</li>
+						<li>
+							I chose not to use any libraries or frameworks for this project
+							for several reasons:
+							<ul>
+								<li>
+									To showcase my coding and debugging skills, which I feel I
+									didn't do as well as I could in the Esape Pool Bar website,
+									due to using Bootstrap.
+								</li>
+								<li>
+									Due to the performance trade-offs often caused by libraries
+									and frameworks.
+								</li>
+							</ul>
+						</li>
+						<li>
+							This was my first project built using JavaScript, and I really
+							enjoyed the freedom and flexibility that JavaScript gave me.
+						</li>
+					</ul>
+				</div>
+				<div>
+					<img
+						src="assets/images/hp-site.png"
+						class="project-img"
+						alt="An image showing my Harry Potter quiz site on a variety of devices"
+					/>
+				</div>
 
-                <div>
-                    <h4>Escape Pool Bar website</h4>
-                    <a href="https://abibubble.github.io/milestone1-escape-pool-bar/index.html" rel="noopener" target="_blank">Click here to view this project</a>
-                    <a href="https://github.com/Abibubble/milestone1-escape-pool-bar" rel="noopener" target="_blank">Click here to view the GitHub repository for this project</a>
-                    <ul>
-                        <li>This is a website for a local pool bar, using just HTML, CSS and Bootstrap.</li>
-                        <li>This was built to showcase my skills at frontend basic UI / UX design, and working to a
-                            deadline.</li>
-                        <li>This was the first full project I built whilst learning to code, and I learnt a lot about
-                            responsive design with this project.</li>
-                    </ul>
-                </div>
-                <div>
-                    <img src="assets/images/epb-site.png" class="project-img" alt="An image showing my Escape Pool Bar website on a variety of devices">
-                </div>
-                <br>
-            </div>
-        </div>
-        <script src="assets/scripts/script.js"></script>
-    </body>
-
+				<div>
+					<h4>Escape Pool Bar website</h4>
+					<a
+						href="https://abibubble.github.io/milestone1-escape-pool-bar/index.html"
+						rel="noopener"
+						target="_blank"
+						>Click here to view this project</a
+					>
+					<a
+						href="https://github.com/Abibubble/milestone1-escape-pool-bar"
+						rel="noopener"
+						target="_blank"
+						>Click here to view the GitHub repository for this project</a
+					>
+					<ul>
+						<li>
+							This is a website for a local pool bar, using just HTML, CSS and
+							Bootstrap.
+						</li>
+						<li>
+							This was built to showcase my skills at frontend basic UI / UX
+							design, and working to a deadline.
+						</li>
+						<li>
+							This was the first full project I built whilst learning to code,
+							and I learnt a lot about responsive design with this project.
+						</li>
+					</ul>
+				</div>
+				<div>
+					<img
+						src="assets/images/epb-site.png"
+						class="project-img"
+						alt="An image showing my Escape Pool Bar website on a variety of devices"
+					/>
+				</div>
+				<br />
+			</div>
+		</main>
+		<footer>
+			<p>Copyright &copy; Abi Harrison <span id="copyright"></span></p>
+		</footer>
+		<script src="assets/scripts/script.js"></script>
+	</body>
 </html>
