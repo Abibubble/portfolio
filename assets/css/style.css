@@ -9,6 +9,7 @@
 }
 
 /* -------------------------------------------------------------------- Universal styles */
+
 html,
 body {
 	margin: 0;
@@ -86,6 +87,10 @@ p {
 	box-shadow: 0 2px 10px 2px var(--blue);
 	background-color: var(--purple);
 	z-index: 99;
+}
+
+.logo-link {
+	width: 70px;
 }
 
 .header img {
