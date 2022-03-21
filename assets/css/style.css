@@ -195,6 +195,13 @@ h3 {
 	font-weight: bold;
 }
 
+.skills-text-grid {
+	display: grid;
+	grid-template-columns: 50px 1fr;
+	align-items: center;
+	row-gap: 12px;
+}
+
 /* ---------------------------------------------------------------- Education page */
 
 .education-heading {
