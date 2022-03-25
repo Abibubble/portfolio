@@ -267,6 +267,45 @@ h3 {
 	gap: 50px;
 }
 
+/* ---------------------------------------------------------------- Contact page */
+
+input,
+textarea {
+	border-radius: 5px;
+	border: 2px solid var(--black);
+	font-size: 18px;
+}
+
+.contact-form {
+	margin: auto;
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: 8px;
+	width: 70%;
+}
+
+.submit-btn {
+	background-color: var(--purple);
+	box-shadow: 1px 1px 2px var(--black);
+}
+
+.submit-btn:hover,
+.submit-btn:focus {
+	border: 2px solid var(--blue);
+	box-shadow: 3px 3px 5px var(--white);
+}
+
+.contact-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 24px;
+	row-gap: 8px;
+	margin: auto;
+	margin-top: 48px;
+	justify-items: left;
+	width: 70%;
+}
+
 /* ---------------------------------------------------------------- Footer */
 
 footer {
